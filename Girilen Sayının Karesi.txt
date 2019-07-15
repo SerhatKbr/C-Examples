@@ -1,0 +1,21 @@
+using System;
+
+
+class HelloWorld {
+  
+
+
+static void Main() {
+  
+
+    int deger;
+           
+    Console.WriteLine("Karesi alýnacak sayýyý giriniz.");
+            
+    deger = Convert.ToInt32(Console.ReadLine());
+            
+    deger = deger * deger;
+            
+    Console.WriteLine("Girilen sayini karesi : {0}",deger);
+  }
+}
