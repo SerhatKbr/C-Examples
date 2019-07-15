@@ -1,0 +1,38 @@
+using System;
+
+
+class HelloWorld {
+  
+
+   static void Main() {
+  
+
+    int number , a , b , c , d;
+   
+    Console.WriteLine("Sayi giriniz");
+   
+    number = Convert.ToInt32(Console.ReadLine());
+    
+ 
+    a = number / 100;
+   
+    b = (number - a * 100) / 10;
+   
+    c = (number - a * 100 - b * 10);
+   
+    d = a*a*a + b*b*b + c*c*c;
+   Console.WriteLine(d);
+   
+   
+
+      if ( d == number) {
+       
+       Console.WriteLine("Armstrong Sayisidir");
+      
+   }
+   
+      else {
+           Console.WriteLine("Armstrong Sayisi Degildir.");
+       }
+  }
+}
