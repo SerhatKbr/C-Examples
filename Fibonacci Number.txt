@@ -6,8 +6,11 @@ using System;
     {
         static void Main(string[] args)
         {
-            int a=0, b=1, i, n,temp=0;
-            Console.WriteLine(" Fibonacci Serisini uygulayabilmek için bir sayi giriniz : ");
+            int a=0, 
+            int b=1, 
+            int i,n,
+            int temp=0;
+            Console.WriteLine(" Fibonacci Serisini uygulayabilmek iÃ§in bir sayi giriniz : ");
             n = Convert.ToInt32(Console.ReadLine());
 
        
@@ -25,6 +28,6 @@ using System;
                 Console.WriteLine(a);
 
             }
-            Console.Read();
+            Console.ReadLine();
         }
     }
