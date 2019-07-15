@@ -13,7 +13,7 @@ using System.Text;
 
       {
 
-         System.Console.WriteLine("100-999 arasý Armstrong Sayýlarý:");
+         System.Console.WriteLine("100-999 arasi Armstrong Sayilari:");
 
  
 
